@@ -4771,7 +4771,7 @@
             <Angle>0.000000</Angle>
             <FlipX>0</FlipX>
             <FlipY>0</FlipY>
-            <Height>5.249537</Height>
+            <Height>5.564498</Height>
             <LocPinX>0.000000</LocPinX>
             <LocPinY>0.000000</LocPinY>
             <PinX>3.183232</PinX>
@@ -4806,11 +4806,11 @@
             </LineTo>
             <LineTo IX='3'>
               <X>-0.413386</X>
-              <Y>-5.249537</Y>
+              <Y>-5.564498</Y>
             </LineTo>
             <LineTo IX='4'>
               <X>2.093128</X>
-              <Y>-5.249537</Y>
+              <Y>-5.564498</Y>
             </LineTo>
           </Geom>
         </Shape>
@@ -4973,15 +4973,15 @@
             <LocPinX>0.000000</LocPinX>
             <LocPinY>0.000000</LocPinY>
             <PinX>5.177935</PinX>
-            <PinY>1.394839</PinY>
+            <PinY>1.079878</PinY>
             <ResizeMode>0</ResizeMode>
             <Width>0.000000</Width>
           </XForm>
           <XForm1D>
             <BeginX>5.177935</BeginX>
-            <BeginY>1.394839</BeginY>
+            <BeginY>1.079878</BeginY>
             <EndX>5.177935</EndX>
-            <EndY>1.197988</EndY>
+            <EndY>0.883028</EndY>
           </XForm1D>
           <Line>
             <BeginArrow>0</BeginArrow>
@@ -5022,15 +5022,15 @@
             <LocPinX>0.000000</LocPinX>
             <LocPinY>0.000000</LocPinY>
             <PinX>5.079510</PinX>
-            <PinY>1.394839</PinY>
+            <PinY>1.079878</PinY>
             <ResizeMode>0</ResizeMode>
             <Width>0.000000</Width>
           </XForm>
           <XForm1D>
             <BeginX>5.079510</BeginX>
-            <BeginY>1.394839</BeginY>
+            <BeginY>1.079878</BeginY>
             <EndX>5.079510</EndX>
-            <EndY>1.197988</EndY>
+            <EndY>0.883028</EndY>
           </XForm1D>
           <Line>
             <BeginArrow>0</BeginArrow>
