@@ -1,0 +1,23 @@
+language: ruby
+rvm:
+- 2.2.2
+script:
+- bundle exec rake db:create
+- bundle exec rake db:migrate
+- bundle exec rake test
+notifications:
+  email:
+    recipients:
+    - gregdiamond29@gmail.com
+    - savdia7@gmail.com
+    on_success: change
+    on_failure: always
+addons:
+  postgres: 9.4.1
+deploy:
+  provider: heroku
+  api_key:
+    secure: uEwaOObM9DEhnAwuS81/wFbfORdZuHo/QxyAeMC2IMh1x1paLzuuFejJGbpRoGUHmp1Ef5wnUQMw0u9ZrHCamH3ePIXXyXWgWsWjwbnRlQrO/lu+5YxHwr9kCjoIIiNsWjq4GSXx0LNQViqHnSvgmhFyKmlKm2zpkhscfDVY9Q1QANE/XnJLa6Zkha81PyTQjhpGa7hnICIE6p12AHjXT6tSpjKvKAINOpq9rWQ1S3k2fDlFd07VapY7tsYH6BtxnyREKbyLc2ydbRxg19b5bnSCceQW2zrD23quDrA/IGJaEW9dg0RvjB3/f47Fv3tX4WcyZButXDQG1WO9D7fuevuYjYap5Gc0/Ld3qI0LCvjT8Ej0PMLZ7gQ7Yv7CIEKwtKsX7YtBp7XA3IEYpJrpXXUs8arl+vMzeGRlxV82fyKvB48tMEiE9jZ4+4qNN2JY78OLKcbtToqUNRHL4VwrVJ7GXn6tOxMWxKu4SnGeDP/tiJ7Aje3PIdAB7uldidwi4+7dQ/lrstJnBfdZPJI2GSt54mqCTG5yRbNNgxnx2a+P4+Hb6Huri7P4zXNpfy1doLpk4+50jCzQJYKKsTUvBiz5IgLUM6i6u1xlK/0/B22qSjuVlE66joP+ocs1tFZ+hEM1BBymcrc+DTAIW7WUD5LKhudQmOGed3z3+I3B5gM=
+  app: pollsite
+  on:
+    repo: savdia/poll_site
