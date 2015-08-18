@@ -45,5 +45,11 @@ group :development, :test do
   # rspec testing framework
   gem 'rspec-rails', '~> 3.0'
 
+  # capybara for integration tests
+  gem 'capybara'
+
+  # factory girl for test data
+  gem 'factory_girl'
+
 end
 
