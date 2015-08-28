@@ -10,6 +10,7 @@ notifications:
     recipients:
     - gregdiamond29@gmail.com
     - savdia7@gmail.com
+    - snsavage@gmail.com
     on_success: change
     on_failure: always
 addons:
