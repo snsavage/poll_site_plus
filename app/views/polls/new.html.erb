@@ -1,0 +1,11 @@
+<h1>Create a new poll.</h1>
+<%= form_for(@poll) do |f| %>
+  <%= f.label :question, "Poll Question" %>
+  <%= f.text_field :question %>
+  <%= f.label :option_one, "Poll Option One" %>
+  <%= f.text_field :option_one %>
+  <%= f.label :option_two, "Poll Option Two" %>
+  <%= f.text_field :option_two %>
+  <%= f.submit "Create Poll" %>
+<% end %>
+

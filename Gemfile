@@ -49,7 +49,7 @@ group :development, :test do
   gem 'capybara'
 
   # factory girl for test data
-  gem 'factory_girl'
+  gem 'factory_girl_rails'
 
 end
 
